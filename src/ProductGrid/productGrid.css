@@ -1,0 +1,16 @@
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.droplabel {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 100px;
+}

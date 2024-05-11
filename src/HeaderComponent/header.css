@@ -1,0 +1,124 @@
+.mainContainer {
+    width: 100vw;
+}
+.containerMain {
+    display: flex;
+    flex-direction: column;
+}
+.headerContainer{
+    width: 100vw;
+    height: 220px;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.greyStrip {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 8px 274px 8px 274px;
+}
+.greyFrame {
+    width: 138px;
+    height: 16px;
+    gap: 10px;
+}
+.greyText {
+    width: 112px;
+    height: 14px;
+}
+
+.greyTextPara {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    color: #eb4c6b;
+}
+.descriptionContainer {
+    height: 32px;
+    top: 32px;
+    border: 0px 0px 1px 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.logoDescriptionContainer  {
+    width: 107px;
+    height: 44px;
+    top: 36px;
+    margin-left: 667px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logoDescription {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 36px;
+    color: #000000;
+}
+.tabsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 636px;
+    height: 24px;
+    top: 140px;
+    margin-left: 402px;
+    gap: 64px;
+}
+.frame {
+    width: 52px;
+    height: 24px;
+}
+.tab {
+    width: 52px;
+    height: 24px;
+}
+.tabDescription {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #252020;
+    font-weight: 700;
+}
+.subHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 721px;
+    height: 168px;
+    top: 292px;
+    left: 360px;
+}
+.subHeadingContainer{
+    width: 666px;
+    height: 72px;
+    top: 292px;
+    margin-left: 388px;
+    margin-top: 70px;
+}
+.subHeadingDescription {
+    color: #252020;
+    font-weight: 400;
+    font-size: 50px;
+    font-family:"Roboto";
+
+}
+.subParaContainer {
+    width: 721px;
+    height: 80px;
+    top: 380px;
+    margin-left: 360px;
+}
+.subParaDescription {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #252020;
+}
